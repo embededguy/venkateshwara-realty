@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Collapse } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import "./style.css";
+// import "./style.css";
 
 const menus = [
   {

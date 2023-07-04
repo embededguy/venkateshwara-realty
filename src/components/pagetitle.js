@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bg from "../../img/breadcrumb-bg.jpg";
+import bg from "../img/breadcrumb-bg.jpg";
 
-import "./style.css";
+// import "./style.css";
 
 const PageTitle = (props) => {
   return (

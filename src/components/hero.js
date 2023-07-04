@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import VideoModal from "../../components/ModalVideo";
+import VideoModal from "./modalvideo";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import hero1 from "../../img/slider-1.jpg";
-import hero2 from "../../img/slider-2.png";
+import hero1 from "../img/slider-1.jpg";
+import hero2 from "../img/slider-2.png";
 
-import "./style.css";
+// import "./style.css";
 
 class Hero extends Component {
   constructor(props) {
@@ -41,22 +41,22 @@ class Hero extends Component {
           <ul>
             <li>
               <Link to="/">
-                <i className="fab fa-pinterest-p" />
+                <i className="fa fa-pinterest-p" />
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i className="fab fa-facebook-f" />
+                <i className="fa fa-facebook-f" />
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i className="fab fa-instagram" />
+                <i className="fa fa-instagram" />
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i className="fab fa-twitter" />
+                <i className="fa fa-twitter" />
               </Link>
             </li>
           </ul>
@@ -66,10 +66,10 @@ class Hero extends Component {
         <div className="hero-slider">
           <div className="hero_arrows">
             <button className="button" onClick={this.previous}>
-              <i className="fas fa-angle-left"></i>
+              <i className="fa fa-angle-left"></i>
             </button>
             <button className="button" onClick={this.next}>
-              <i className="fas fa-angle-right"></i>
+              <i className="fa fa-angle-right"></i>
             </button>
           </div>
           <Slider ref={(c) => (this.slider = c)} {...settings}>

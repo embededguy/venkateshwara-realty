@@ -1,9 +1,9 @@
 import React from "react";
-import ServiceBg from "../../img/service-bg-1.png";
-import Pricing from "../../components/pricing";
-import Partners from "../../components/partners";
+import ServiceBg from "../img/service-bg-1.png";
+import Pricing from "./pricing";
+import Partners from "./partners";
 
-import "./style.css";
+// import "./style.css";
 
 const ServiceSingle = () => {
   return (

@@ -6,7 +6,7 @@ import img1 from "../img/about-1.png";
 import img2 from "../img/about-2.png";
 import signature from "../img/signature.png";
 
-import "./style.css";
+// import "./style.css";
 
 const About = () => {
   return (

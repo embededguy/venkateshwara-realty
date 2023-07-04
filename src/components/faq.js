@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Accordion } from "react-bootstrap";
 
-import Img1 from "../../img/faq-1.jpg";
-import Img2 from "../../img/faq-2.jpg";
-import Img3 from "../../img/support.png";
-import Img4 from "../../img/social-care.png";
-import Img5 from "../../img/newspaper.png";
-import Icon from "../../img/customer-service.png";
+import Img1 from "../img/faq-1.jpg";
+import Img2 from "../img/faq-2.jpg";
+import Img3 from "../img/support.png";
+import Img4 from "../img/social-care.png";
+import Img5 from "../img/newspaper.png";
+import Icon from "../img/customer-service.png";
 
-import "./style.css";
+// import "./style.css";
 
 class Faq extends Component {
   render() {

@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import Header from "../../components/header";
-import PageTitle from "../../components/pagetitle";
-import ServiceSingle from "../../components/ServiceSingle";
-import Footer from "../../components/footer";
+import Header from "../components/header";
+import PageTitle from "../components/pagetitle";
+import ServiceSingle from "../components/servicesingle";
+import Footer from "../components/footer";
 
 const ServiceSinglePage = () => {
   return (

@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Img1 from "../../img/post-1.jpg";
-import Img2 from "../../img/post-2.jpg";
-import Img3 from "../../img/post-3.jpg";
-import Img4 from "../../img/post-4.jpg";
-import Img5 from "../../img/post-5.jpg";
+import Img1 from "../img/post-1.jpg";
+import Img2 from "../img/post-2.jpg";
+import Img3 from "../img/post-3.jpg";
+import Img4 from "../img/post-4.jpg";
+import Img5 from "../img/post-5.jpg";
 
-import "./style.css";
+// import "./style.css";
 
 const Sidebar = () => {
   const SubmitHandler = (e) => {

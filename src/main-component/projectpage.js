@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import Header from "../../components/header";
-import PageTitle from "../../components/pagetitle";
-import ProjectList from "../../components/ProjectList";
-import Footer from "../../components/footer";
+import Header from "../components/header";
+import PageTitle from "../components/pagetitle";
+import ProjectList from "../components/projectlist";
+import Footer from "../components/footer";
 
 const ProjectPage = () => {
   return (

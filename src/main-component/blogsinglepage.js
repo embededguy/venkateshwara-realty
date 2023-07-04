@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import Header from "../../components/header";
-import PageTitle from "../../components/pagetitle";
-import BlogSingle from "../../components/BlogSingle";
-import Footer from "../../components/footer";
+import Header from "../components/header";
+import PageTitle from "../components/pagetitle";
+import BlogSingle from "../components/blogsingle";
+import Footer from "../components/footer";
 
 const ContactPage = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import bg from "../../img/expertise.jpg";
-import "./style.css";
+import bg from "../img/expertise.jpg";
+// import "./style.css";
 
 const Expertise = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import pricingBG from "../../img/service-cost-bg.jpg";
+import pricingBG from "../img/service-cost-bg.jpg";
 
-import "./style.css";
+// import "./style.css";
 
 const Pricing = () => {
   return (

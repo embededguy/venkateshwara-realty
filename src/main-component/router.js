@@ -1,19 +1,19 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Homepage from "./HomePage";
-import AboutPage from "./AboutPage";
-import ProjectPage from "./ProjectPage";
-import ProjectSinglePage from "./ProjectSinglePage";
-import ServicePage from "./ServicePage";
-import ServiceSinglePage from "./ServiceSinglePage";
-import PortfolioPage from "./PortfolioPage";
-import TeamPage from "./TeamPage";
-import FaqPage from "./FaqPage";
-import ContactPage from "./ContactPage";
-import ErrorPage from "./ErrorPage";
-import BlogPage from "./BlogPage";
-import BlogSinglePage from "./BlogSinglePage";
+import Homepage from "./homepage";
+import AboutPage from "./aboutpage";
+import ProjectPage from "./projectpage";
+import ProjectSinglePage from "./projectsinglepage";
+import ServicePage from "./servicepage";
+import ServiceSinglePage from "./servicesinglepage";
+import PortfolioPage from "./portfoliopage";
+import TeamPage from "./teampage";
+import FaqPage from "./faqpage";
+import ContactPage from "./contactpage";
+import ErrorPage from "./errorpage";
+import BlogPage from "./blogpage";
+import BlogSinglePage from "./blogsinglepage";
 
 const AllRoute = () => {
   return (

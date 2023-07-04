@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./style.css";
+// import "./style.css";
 
 const Footer = () => {
   const NewsletterHandler = (e) => {
@@ -22,13 +22,13 @@ const Footer = () => {
                 </p>
                 <ul className="footer-contact">
                   <li>
-                    <i className="fas fa-phone-square-alt" /> (444) 123 4567 89
+                    <i className="fa fa-phone" /> (444) 123 4567 89
                   </li>
                   <li>
-                    <i className="fas fa-envelope" /> support@company.com
+                    <i className="fa fa-envelope" /> support@company.com
                   </li>
                   <li>
-                    <i className="fas fa-map" /> 74 South Doult Street, Dubai.
+                    <i className="fa fa-map" /> 74 South Doult Street, Dubai.
                   </li>
                 </ul>
               </div>
@@ -85,29 +85,29 @@ const Footer = () => {
                   <form onSubmit={NewsletterHandler}>
                     <input type="email" placeholder="Email Address" />
                     <button type="submit">
-                      <i className="fas fa-long-arrow-alt-right" />
+                      <i className="fa fa-envelope" />
                     </button>
                   </form>
                 </div>
                 <ul className="footer-social">
                   <li>
                     <Link to="/">
-                      <i className="fab fa-pinterest-p" />
+                      <i className="fa fa-pinterest-p" />
                     </Link>
                   </li>
                   <li>
                     <Link to="/">
-                      <i className="fab fa-facebook-f" />
+                      <i className="fa fa-facebook-f" />
                     </Link>
                   </li>
                   <li>
                     <Link to="/">
-                      <i className="fab fa-instagram" />
+                      <i className="fa fa-instagram" />
                     </Link>
                   </li>
                   <li>
                     <Link to="/">
-                      <i className="fab fa-twitter" />
+                      <i className="fa fa-twitter" />
                     </Link>
                   </li>
                 </ul>

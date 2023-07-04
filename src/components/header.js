@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Logo from "../../img/logo.png";
-import MobileMenu from "../../components/MobileMenu";
+import Logo from "../img/byasi.png";
+import MobileMenu from "./mobilemenu";
 import { Link } from "react-router-dom";
 
-import "./style.css";
+// import "./style.css";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -109,7 +109,7 @@ const Header = () => {
                 </button>
                 <Link to="/contact" className="header-btn">
                   <div className="icon-holder">
-                    <i className="far fa-envelope"></i>
+                    <i className="fa fa-envelope"></i>
                   </div>
                   Get In Touch
                 </Link>

@@ -3,7 +3,7 @@ import VideoModal from "./modalvideo";
 
 import tourBG from "../img/tour-img.png";
 
-import "./style.css";
+// import "./style.css";
 
 const Tour = () => {
   return (

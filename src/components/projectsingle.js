@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Img1 from "../../img/project-details.jpg";
-import Img2 from "../../img/plan.png";
-import Img3 from "../../img/24-hours.png";
-import Img4 from "../../img/group.png";
-import Img5 from "../../img/best-price.png";
-import Img6 from "../../img/bedroom.jpg";
-import Img7 from "../../img/hallroom.jpg";
-import Img8 from "../../img/kitchen.jpg";
+import Img1 from "../img/project-details.jpg";
+import Img2 from "../img/plan.png";
+import Img3 from "../img/24-hours.png";
+import Img4 from "../img/group.png";
+import Img5 from "../img/best-price.png";
+import Img6 from "../img/bedroom.jpg";
+import Img7 from "../img/hallroom.jpg";
+import Img8 from "../img/kitchen.jpg";
 
-import "./style.css";
+// import "./style.css";
 
 const ProjectSingle = () => {
   return (
