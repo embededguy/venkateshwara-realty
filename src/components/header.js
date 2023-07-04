@@ -31,74 +31,74 @@ const Header = () => {
                 <nav id="menu">
                   <ul className="dropdown">
                     <li>
-                      <Link to="/">Home</Link>
+                      <Link style={{textDecoration:"none",fontWeight:"700"}} to="/">Home</Link>
                     </li>
                     <li>
-                      <Link to="/about">About</Link>
+                      <Link style={{textDecoration:"none",fontWeight:"700"}} to="/about">About</Link>
                     </li>
                     <li>
-                      <Link to="/" onClick={onClick}>
+                      <Link to="/" style={{textDecoration:"none",fontWeight:"700"}} onClick={onClick}>
                         Projects
                       </Link>
                       <ul>
                         <li>
-                          <Link to="/projects">Project</Link>
+                          <Link to="/projects" style={{textDecoration:"none",fontWeight:"700"}} >Project</Link>
                         </li>
                         <li>
-                          <Link to="/projects-single">Project Details</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/projects-single">Project Details</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link to="/" onClick={onClick}>
+                      <Link style={{textDecoration:"none",fontWeight:"700"}} to="/" onClick={onClick}>
                         Service
                       </Link>
                       <ul>
                         <li>
-                          <Link to="/service">Service</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/service">Service</Link>
                         </li>
                         <li>
-                          <Link to="/service-single">Service Details</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/service-single">Service Details</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link to="/" onClick={onClick}>
+                      <Link to="/" style={{textDecoration:"none",fontWeight:"700"}}  onClick={onClick}>
                         Pages
                       </Link>
                       <ul>
                         <li>
-                          <Link to="/portfolio">Portfolio</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/portfolio">Portfolio</Link>
                         </li>
                         <li>
-                          <Link to="/team">Team</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/team">Team</Link>
                         </li>
                         <li>
-                          <Link to="/faq">Faq</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/faq">Faq</Link>
                         </li>
                         <li>
-                          <Link to="/contact">Contact</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/contact">Contact</Link>
                         </li>
                         <li>
-                          <Link to="/404">Error</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/404">Error</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link to="/" onClick={onClick}>
+                      <Link style={{textDecoration:"none",fontWeight:"700"}} to="/" onClick={onClick}>
                         Blog
                       </Link>
                       <ul>
                         <li>
-                          <Link to="/blog">Blog</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/blog">Blog</Link>
                         </li>
                         <li>
-                          <Link to="/blog-single">Blog Details</Link>
+                          <Link style={{textDecoration:"none",fontWeight:"700"}} to="/blog-single">Blog Details</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link to="/contact">Contact</Link>
+                      <Link style={{textDecoration:"none",fontWeight:"700"}} to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </nav>
