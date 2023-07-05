@@ -12,7 +12,7 @@ const Tour = () => {
         <div className="row">
           <div className="col-lg-6 offset-lg-6 col-md-8 offset-md-4">
             <div className="site-heading">
-              <h3 className="sub-title">TAKE A TOUR!</h3>
+              <h3 className="sub-title" style={{textAlign:"right"}}>TAKE A TOUR!</h3>
               <h2 className="section-title">We make things better</h2>
             </div>
           </div>

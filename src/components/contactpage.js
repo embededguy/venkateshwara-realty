@@ -22,35 +22,34 @@ const Contactpage = () => {
               <div className="contact-info">
                 <div className="single-contact-info" data-aos="fade-up">
                   <div className="contact-info-icon">
-                    <span className="fas fa-map-marker-alt" />
+                    <span className="fa fa-map-marker" />
                   </div>
                   <div className="contact-info-text">
                     <h5>Head office</h5>
                     <p>
-                      74 South Doult Street,
+                    Office No:1, Saikrupa Apt., Azad Rd-2, Behind Vishal Hall, Opp. Kamgar Kalyan Kendra, Andheri (E)
                       <br />
-                      Dubai.
+                      Mumbai - 400 069
                     </p>
                   </div>
                 </div>
                 <div className="single-contact-info" data-aos="fade-up">
                   <div className="contact-info-icon">
-                    <span className="fas fa-phone-alt" />
+                    <span className="fa fa-phone" />
                   </div>
                   <div className="contact-info-text">
                     <h5>Phone</h5>
-                    <p>(444) 123 4567 89</p>
-                    <p>(+09) 123 4567 89</p>
+                    <p> +91 99201 02300</p>
+                    <p>+91 91900 00018, +91 98197 87718, +91 93200 00027;</p>
                   </div>
                 </div>
                 <div className="single-contact-info" data-aos="fade-up">
                   <div className="contact-info-icon">
-                    <span className="fas fa-envelope" />
+                    <span className="fa fa-envelope" />
                   </div>
                   <div className="contact-info-text">
                     <h5>Email</h5>
-                    <p>info@company.com</p>
-                    <p>support@company.com</p>
+                    <p>sales@venkateshwararealty.co.in</p>
                   </div>
                 </div>
               </div>
@@ -60,7 +59,7 @@ const Contactpage = () => {
             <div className="contact-page-right">
               <iframe
                 title="map"
-                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d555482.3711026354!2d55.086876101283096!3d24.842777577980748!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1629183603415!5m2!1sen!2sbd"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Office No:1, Saikrupa Apt., Azad Rd-2, Behind Vishal Hall, Opp. Kamgar Kalyan Kendra, Andheri (E), Mumbai - 400 069;&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>
             </div>
           </div>
