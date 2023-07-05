@@ -14,22 +14,22 @@ const PageTitle = (props) => {
         <ul>
           <li>
             <Link to="/">
-              <i className="fab fa-pinterest-p" />
+              <i className="fa fa-pinterest-p" />
             </Link>
           </li>
           <li>
             <Link to="/">
-              <i className="fab fa-facebook-f" />
+              <i className="fa fa-facebook-f" />
             </Link>
           </li>
           <li>
             <Link to="/">
-              <i className="fab fa-instagram" />
+              <i className="fa fa-instagram" />
             </Link>
           </li>
           <li>
             <Link to="/">
-              <i className="fab fa-twitter" />
+              <i className="fa fa-twitter" />
             </Link>
           </li>
         </ul>
@@ -43,7 +43,7 @@ const PageTitle = (props) => {
               <ul>
                 <li className="home">
                   <Link to="/">
-                    <span className="fas fa-home" />
+                    <span className="fa fa-home" />
                   </Link>
                 </li>
                 <li>{props.pagesub}</li>

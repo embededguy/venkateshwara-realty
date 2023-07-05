@@ -1,8 +1,8 @@
 import React from "react";
 
-import Icon1 from "../img/logo01-1.png";
-import Icon2 from "../img/logo02-1.png";
-import Icon3 from "../img/logo03-1.png";
+import Icon1 from "../img/logo-1.png";
+import Icon2 from "../img/logo-2.png";
+import Icon3 from "../img/logo-3.png";
 import img1 from "../img/about-3.png";
 import img2 from "../img/about-4.png";
 // import "./style.css";

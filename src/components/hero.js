@@ -5,8 +5,8 @@ import VideoModal from "./modalvideo";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import hero1 from "../img/slider-1.jpg";
-import hero2 from "../img/slider-2.png";
+import hero1 from "../img/VR-1.jpeg";
+import hero2 from "../img/VR-2.jpeg";
 
 // import "./style.css";
 

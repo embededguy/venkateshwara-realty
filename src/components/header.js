@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../img/byasi.png";
+import Logo from "../img/vr.png";
 import MobileMenu from "./mobilemenu";
 import { Link } from "react-router-dom";
 
@@ -23,7 +23,7 @@ const Header = () => {
           <div className="header-inn">
             <div className="site-logo">
               <Link to="/">
-                <img src={Logo} alt="" />
+                <img src={Logo} alt="venkateshwara reality logo" />
               </Link>
             </div>
             <div className="header-navigation">

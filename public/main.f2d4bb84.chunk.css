@@ -4829,9 +4829,9 @@
   justify-content: space-between;
 }
 .site-logo a {
-  padding: 35px 25px;
+  padding: 30px 35px;
   background: #fff;
-  width: 195px;
+  width: 150px;
   display: inline-block;
 }
 .header-navigation {

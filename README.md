@@ -1,2 +1,2 @@
-# Venkateshwara Reality
+# Venkateshwara Realty
 
