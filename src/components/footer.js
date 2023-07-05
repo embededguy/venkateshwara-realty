@@ -17,18 +17,18 @@ const Footer = () => {
               <div className="single-footer">
                 <h3>About</h3>
                 <p>
-                  Precious ipsum dolor sit amet consectetur
-                  <br /> adipisicing elit, sed dos mod tempor
+                Venkateshwara Realty has successfully collaberated with Westin Developers, a pioneer in real estate industry with over 28 successfully completed projects under its belt. 
+                
                 </p>
                 <ul className="footer-contact">
                   <li>
-                    <i className="fa fa-phone" /> (444) 123 4567 89
+                    <i className="fa fa-phone" /> +91 99201 02300
                   </li>
                   <li>
-                    <i className="fa fa-envelope" /> support@company.com
+                    <i className="fa fa-envelope" /> sales@venkateshwararealty.co.in
                   </li>
                   <li>
-                    <i className="fa fa-map" /> 74 South Doult Street, Dubai.
+                    <i className="fa fa-map" />Office No:1, Saikrupa Apt., Azad Rd-2, Behind Vishal Hall, Opp. Kamgar Kalyan Kendra, Andheri (E), Mumbai - 400 069;
                   </li>
                 </ul>
               </div>

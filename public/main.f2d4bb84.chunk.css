@@ -5350,10 +5350,12 @@
     display: none;
   }
   .section-title {
+    text-align: right;
     font-size: 38px;
     line-height: 44px;
   }
   .sub-title {
+    text-align: right;
     letter-spacing: 3px;
     font-size: 20px;
   }
@@ -7466,8 +7468,10 @@ section {
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 24px;
+  text-align: left;
 }
 .section-title {
+  text-align: right;
   color: #000;
   font-size: 60px;
   letter-spacing: 2px;
