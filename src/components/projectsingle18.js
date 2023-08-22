@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Img1 from "../img/project-s-13.jpg";
+import Img1 from "../img/project-s-8.jpg";
 import Img2 from "../img/plan.png";
 import Img3 from "../img/24-hours.png";
 import Img4 from "../img/group.png";
@@ -34,7 +34,7 @@ const ProjectSingle13 = () => {
                   <div className="col-lg-6">
                     <div className="project-details-top-box-text">
                       <h5>Location</h5>
-                      <p>MANKHURD</p>
+                      <p>Girgaum</p>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -55,22 +55,17 @@ const ProjectSingle13 = () => {
             <div className="project-details-top-text">
               <h2>Best Interior Ideas</h2>
               <p>
-                Sky Residency soars as a modern masterpiece in the heart of Mankhurd, one of Mumbai's emerging and vibrant neighborhoods. This iconic residential haven is thoughtfully designed to offer residents a harmonious blend of contemporary living, convenience, and an elevated quality of life.
-              </p>
+                Mumbadevi Cooperative Housing Society (CHS) Ltd presents a unique blend of modern living and cultural charm in the heart of Girgaum. This exceptional residential masterpiece is meticulously crafted to offer residents a harmonious lifestyle that celebrates Mumbai's vibrant heritage.              </p>
               <p>
                 <h3> - Architectural Marvel - </h3>
 
-                Sky Residency is an architectural marvel, seamlessly integrating modern design with a touch of visionary elegance, creating a building that stands as a beacon of style in the Mankhurd skyline:
-              </p>
+                Mumbadevi CHS Ltd stands as an architectural marvel, seamlessly fusing contemporary design with echoes of Mumbai's rich history. The building's exterior is a tribute to Mumbai's historic architecture, featuring ornate details and modern elements that pay homage to the city's past.</p>
               <p>
                 <h3> - Community and Lifestyle - </h3>
-
-                Sky Residency is more than just a building; it's a community where residents can create cherished memories and embrace a high-quality lifestyle:
-              </p>
+                The building's foyer welcomes residents and guests with a warm ambiance, fostering a sense of togetherness and community spirit. Carefully landscaped heritage courtyards serve as gathering spaces where residents can unwind, socialize, and embrace the rich heritage of Mumbai.</p>
               <p>
                 <h3> - Conclusion - </h3>
-                Experience the urban elegance and modern living of Sky Residency. It's not just a residence; it's a lifestyle choice where every detail is designed to provide you with comfort, community, and a vibrant urban experience in the heart of Mankhurd. Embrace the Sky Residency way of life, where every day feels like a celebration of contemporary living in a thriving neighborhood.
-              </p>
+                Mumbadevi Cooperative Housing Society (CHS) Ltd is more than just a residential abode; it's an ode to both contemporary living and Mumbai's diverse cultural legacy. Embrace Girgaum's spirit while enjoying the privilege of residing in a building that seamlessly merges tradition with modernity. Mumbadevi CHS Ltd offers a lifestyle that encapsulates the allure of history and the comfort of modern living, providing a distinctive and enriching residential experience in one of Mumbai's most cherished neighborhoods.              </p>
             </div>
             <div className="project-overview">
               <div className="row">
@@ -114,8 +109,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Welcome to the serene sanctuary of comfort and relaxation within Sky Residency. Our bedrooms are designed to offer a perfect balance of tranquility, style, and practicality.
-                      </p>
+                        Step into the serenity of Mumbadevi CHS Ltd's bedrooms. Our bedrooms are meticulously crafted to provide a perfect blend of comfort, elegance, and modern living.                      </p>
                       
                     </div>
                   </div>
@@ -128,7 +122,8 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                       Discover the heart of Sky Residency – our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and special gatherings.
+                        Discover the heart of Mumbadevi CHS Ltd – our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and cherished gatherings.
+
                       </p>
                       
                     </div>
@@ -142,8 +137,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Experience culinary excellence in our meticulously designed kitchens. Sky Residency's kitchens are more than just functional; they're designed to inspire your culinary creativity.
-                      </p>
+                        Experience culinary excellence in our meticulously designed kitchens at Mumbadevi CHS Ltd. Our kitchens are designed to inspire culinary creativity while embracing modern convenience.                      </p>
                       
                     </div>
                   </div>

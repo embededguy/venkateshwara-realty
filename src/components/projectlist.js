@@ -11,9 +11,11 @@ import projectImg7 from "../img/project-sf-10.webp";
 import projectImg8 from "../img/project-sf-11.jpg";
 import projectImg9 from "../img/project-sf-12.webp";
 import projectImg10 from "../img/project-sf-13.jpg";
-
-
-
+import projectImg11 from "../img/building-14.jpg";
+import projectImg12 from "../img/project-15.jpg";
+import projectImg13 from "../img/project-s-16.webp";
+import projectImg14 from "../img/project-s-19.jpg";
+import projectImg15 from "../img/project-s-17.webp";
 
 // import "./style.css";
 
@@ -35,7 +37,7 @@ const ProjectList = () => {
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
                   <Link to="/projects-single17">
-                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <img src={projectImg15} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Liberty Garden
                       <br /> IN Malad
@@ -99,7 +101,7 @@ const ProjectList = () => {
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
                   <Link to="/projects-single19">
-                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <img src={projectImg14} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Samrat CHS Ltd
                       <br /> IN Malad
@@ -131,7 +133,7 @@ const ProjectList = () => {
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
                   <Link to="/projects-single14">
-                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <img src={projectImg11} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Vitthal Darshan
                       <br /> IN Andheri
@@ -163,7 +165,7 @@ const ProjectList = () => {
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
                   <Link to="/projects-single15">
-                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <img src={projectImg12} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                     Sudhanshu   
                       <br /> IN Vile Parle
@@ -195,7 +197,7 @@ const ProjectList = () => {
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
                   <Link to="/projects-single16">
-                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <img src={projectImg13} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Yoga Yog
                       <br /> IN Vile Parle

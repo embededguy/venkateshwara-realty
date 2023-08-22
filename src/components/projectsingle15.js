@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Img1 from "../img/project-s-13.jpg";
+import Img1 from "../img/project-15.jpg";
 import Img2 from "../img/plan.png";
 import Img3 from "../img/24-hours.png";
 import Img4 from "../img/group.png";
 import Img5 from "../img/best-price.png";
-import Img6 from "../img/bedroom-5.jpg";
-import Img7 from "../img/hallroom-4.jpg";
-import Img8 from "../img/kitchen-10.jpg";
+import Img6 from "../img/bedroom-12.jpg";
+import Img7 from "../img/hallroom-6.jpg";
+import Img8 from "../img/kitchen-12.jpg";
 
 // import "./style.css";
 
@@ -34,13 +34,13 @@ const ProjectSingle13 = () => {
                   <div className="col-lg-6">
                     <div className="project-details-top-box-text">
                       <h5>Location</h5>
-                      <p>MANKHURD</p>
+                      <p>Vile Parle</p>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="project-details-top-box-text">
                       <h5>Year</h5>
-                      <p>2020</p>
+                      <p>2021</p>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -55,22 +55,17 @@ const ProjectSingle13 = () => {
             <div className="project-details-top-text">
               <h2>Best Interior Ideas</h2>
               <p>
-                Sky Residency soars as a modern masterpiece in the heart of Mankhurd, one of Mumbai's emerging and vibrant neighborhoods. This iconic residential haven is thoughtfully designed to offer residents a harmonious blend of contemporary living, convenience, and an elevated quality of life.
-              </p>
+                Sudhanshu Towers stands as an epitome of modern living in the heart of Vile Parle, one of Mumbai's most sought-after and culturally rich neighborhoods. This exclusive residential haven is thoughtfully designed to offer residents a harmonious blend of comfort, luxury, and convenience, setting new standards for upscale urban living.              </p>
               <p>
                 <h3> - Architectural Marvel - </h3>
 
-                Sky Residency is an architectural marvel, seamlessly integrating modern design with a touch of visionary elegance, creating a building that stands as a beacon of style in the Mankhurd skyline:
-              </p>
+                Sudhanshu Towers is a showcase of architectural elegance, seamlessly fusing contemporary design with a touch of sophistication.              </p>
               <p>
-                <h3> - Community and Lifestyle - </h3>
-
-                Sky Residency is more than just a building; it's a community where residents can create cherished memories and embrace a high-quality lifestyle:
-              </p>
+                <h3> - Convenience and Connectivity - </h3>
+                Sudhanshu Towers is strategically situated to offer the perfect blend of urban convenience and serene living. Nestled in Vile Parle, a well-established and well-connected neighborhood, the building provides easy access to major transportation hubs, commercial centers, shopping districts, and cultural attractions.              </p>
               <p>
                 <h3> - Conclusion - </h3>
-                Experience the urban elegance and modern living of Sky Residency. It's not just a residence; it's a lifestyle choice where every detail is designed to provide you with comfort, community, and a vibrant urban experience in the heart of Mankhurd. Embrace the Sky Residency way of life, where every day feels like a celebration of contemporary living in a thriving neighborhood.
-              </p>
+                Experience the pinnacle of luxury living at Sudhanshu Towers. It's not just a residence; it's a lifestyle choice where every detail is meticulously crafted to provide you with comfort, sophistication, and a vibrant community spirit in the heart of Vile Parle. Embrace the Sudhanshu way of life, where every day feels like a celebration of contemporary living in one of Mumbai's most beloved neighborhoods.              </p>
             </div>
             <div className="project-overview">
               <div className="row">
@@ -78,7 +73,7 @@ const ProjectSingle13 = () => {
                   <div className="project-overview-box">
                     <img src={Img2} alt="img" />
                     <h5>Project size</h5>
-                    <p>52000 sq ft</p>
+                    <p>45000 sq ft</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-6">
@@ -99,7 +94,7 @@ const ProjectSingle13 = () => {
                   <div className="project-overview-box">
                     <img src={Img5} alt="img" />
                     <h5>Project cost</h5>
-                    <p>₹ 195cr</p>
+                    <p>₹ 255cr</p>
                   </div>
                 </div>
               </div>
@@ -114,8 +109,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Welcome to the serene sanctuary of comfort and relaxation within Sky Residency. Our bedrooms are designed to offer a perfect balance of tranquility, style, and practicality.
-                      </p>
+                        Step into the world of tranquility and luxury within Sudhanshu Towers. Our bedrooms are meticulously designed to offer the perfect blend of comfort, style, and practicality.                      </p>
                       
                     </div>
                   </div>
@@ -128,8 +122,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                       Discover the heart of Sky Residency – our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and special gatherings.
-                      </p>
+                        Discover the heart of Sudhanshu Towers – our versatile and inviting living spaces. Our halls or living rooms are designed to be the hub of daily life and special gatherings.                      </p>
                       
                     </div>
                   </div>
@@ -142,8 +135,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Experience culinary excellence in our meticulously designed kitchens. Sky Residency's kitchens are more than just functional; they're designed to inspire your culinary creativity.
-                      </p>
+                        Experience culinary excellence in our meticulously designed Sudhanshu Towers kitchens. Our kitchens are more than just functional; they inspire your culinary creativity.                      </p>
                       
                     </div>
                   </div>

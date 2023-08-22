@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Img1 from "../img/project-s-13.jpg";
+import Img1 from "../img/building-14.jpg";
 import Img2 from "../img/plan.png";
 import Img3 from "../img/24-hours.png";
 import Img4 from "../img/group.png";
 import Img5 from "../img/best-price.png";
-import Img6 from "../img/bedroom-5.jpg";
-import Img7 from "../img/hallroom-4.jpg";
-import Img8 from "../img/kitchen-10.jpg";
+import Img6 from "../img/bedroom-6.jpg";
+import Img7 from "../img/hallroom-7.jpg";
+import Img8 from "../img/kitchen-11.jpg";
 
 // import "./style.css";
 
@@ -34,13 +34,13 @@ const ProjectSingle13 = () => {
                   <div className="col-lg-6">
                     <div className="project-details-top-box-text">
                       <h5>Location</h5>
-                      <p>MANKHURD</p>
+                      <p>Andheri</p>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="project-details-top-box-text">
                       <h5>Year</h5>
-                      <p>2020</p>
+                      <p>2021</p>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -53,24 +53,18 @@ const ProjectSingle13 = () => {
               </div>
             </div>
             <div className="project-details-top-text">
-              <h2>Best Interior Ideas</h2>
+              <h2>Architectural Elegance</h2>
               <p>
-                Sky Residency soars as a modern masterpiece in the heart of Mankhurd, one of Mumbai's emerging and vibrant neighborhoods. This iconic residential haven is thoughtfully designed to offer residents a harmonious blend of contemporary living, convenience, and an elevated quality of life.
-              </p>
+                Vitthal Darshan stands as a testament to timeless architectural design, combining elements of traditional Indian aesthetics with contemporary features. The building's façade is adorned with intricate carvings and motifs that pay homage to the cultural heritage of the region.              </p>
               <p>
-                <h3> - Architectural Marvel - </h3>
-
-                Sky Residency is an architectural marvel, seamlessly integrating modern design with a touch of visionary elegance, creating a building that stands as a beacon of style in the Mankhurd skyline:
-              </p>
+                <h3> - Spectacular Sky Garden - </h3>
+                One of the standout features of Vitthal Darshan is its lush sky garden located on the rooftop. Residents can escape the urban bustle and enjoy panoramic views of Andheri while strolling through beautifully landscaped pathways, relaxing in shaded seating areas, and even practicing yoga in the designated wellness corner.              </p>
               <p>
-                <h3> - Community and Lifestyle - </h3>
-
-                Sky Residency is more than just a building; it's a community where residents can create cherished memories and embrace a high-quality lifestyle:
-              </p>
+                <h3> -Vibrant Community Hub - </h3>
+                The building's central courtyard is designed as a vibrant community hub. It hosts regular cultural events, art exhibitions, and performances, fostering a sense of togetherness among the residents and creating a dynamic living environment.              </p>
               <p>
-                <h3> - Conclusion - </h3>
-                Experience the urban elegance and modern living of Sky Residency. It's not just a residence; it's a lifestyle choice where every detail is designed to provide you with comfort, community, and a vibrant urban experience in the heart of Mankhurd. Embrace the Sky Residency way of life, where every day feels like a celebration of contemporary living in a thriving neighborhood.
-              </p>
+                <h3> - Convenient Connectivity - </h3>
+                Situated in the heart of Andheri, Vitthal Darshan offers easy access to major transportation hubs, shopping districts, and cultural landmarks. The building is surrounded by well-maintained walkways and cycle paths, encouraging residents to explore the neighborhood at their leisure.              </p>
             </div>
             <div className="project-overview">
               <div className="row">
@@ -78,7 +72,7 @@ const ProjectSingle13 = () => {
                   <div className="project-overview-box">
                     <img src={Img2} alt="img" />
                     <h5>Project size</h5>
-                    <p>52000 sq ft</p>
+                    <p>59000 sq ft</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-6">
@@ -99,7 +93,7 @@ const ProjectSingle13 = () => {
                   <div className="project-overview-box">
                     <img src={Img5} alt="img" />
                     <h5>Project cost</h5>
-                    <p>₹ 195cr</p>
+                    <p>₹ 295cr</p>
                   </div>
                 </div>
               </div>
@@ -114,8 +108,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Welcome to the serene sanctuary of comfort and relaxation within Sky Residency. Our bedrooms are designed to offer a perfect balance of tranquility, style, and practicality.
-                      </p>
+                        Indulge in comfort and tranquility within your Vitthal Darshan bedroom. Carefully designed for a blend of relaxation and style, our bedrooms offer the ultimate retreat.                      </p>
                       
                     </div>
                   </div>
@@ -128,8 +121,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                       Discover the heart of Sky Residency – our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and special gatherings.
-                      </p>
+                        Discover the heart of Vitthal Darshan – our adaptable and welcoming living spaces. Our halls or living rooms are designed to be the nucleus of daily life and special moments.                      </p>
                       
                     </div>
                   </div>
@@ -142,8 +134,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Experience culinary excellence in our meticulously designed kitchens. Sky Residency's kitchens are more than just functional; they're designed to inspire your culinary creativity.
-                      </p>
+                        Experience culinary excellence in your meticulously designed Vitthal Darshan kitchen. Our kitchens unite functionality and aesthetics, inspiring your culinary creativity.                      </p>
                       
                     </div>
                   </div>

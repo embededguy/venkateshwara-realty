@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Img1 from "../img/project-s-13.jpg";
+import Img1 from "../img/project-17.webp";
 import Img2 from "../img/plan.png";
 import Img3 from "../img/24-hours.png";
 import Img4 from "../img/group.png";
 import Img5 from "../img/best-price.png";
-import Img6 from "../img/bedroom-5.jpg";
-import Img7 from "../img/hallroom-4.jpg";
-import Img8 from "../img/kitchen-10.jpg";
+import Img6 from "../img/bedroom-2.jpg";
+import Img7 from "../img/hallroom-2.png";
+import Img8 from "../img/kitchen-11.jpg";
 
 // import "./style.css";
 
@@ -34,7 +34,7 @@ const ProjectSingle13 = () => {
                   <div className="col-lg-6">
                     <div className="project-details-top-box-text">
                       <h5>Location</h5>
-                      <p>MANKHURD</p>
+                      <p>Malad</p>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -55,22 +55,18 @@ const ProjectSingle13 = () => {
             <div className="project-details-top-text">
               <h2>Best Interior Ideas</h2>
               <p>
-                Sky Residency soars as a modern masterpiece in the heart of Mankhurd, one of Mumbai's emerging and vibrant neighborhoods. This iconic residential haven is thoughtfully designed to offer residents a harmonious blend of contemporary living, convenience, and an elevated quality of life.
-              </p>
+                Liberty Garden Cooperative Housing Society (CHS) Ltd offers a harmonious blend of modern living and community camaraderie in the heart of Malad. This exclusive residential haven is meticulously designed to provide residents with comfort, convenience, and a strong sense of belonging in one of Mumbai's most vibrant neighborhoods.              </p>
               <p>
                 <h3> - Architectural Marvel - </h3>
 
-                Sky Residency is an architectural marvel, seamlessly integrating modern design with a touch of visionary elegance, creating a building that stands as a beacon of style in the Mankhurd skyline:
-              </p>
+                Liberty Garden CHS Ltd boasts architectural brilliance that seamlessly fuses contemporary aesthetics with functionality. The building's striking facade marries sleek lines and tasteful design elements, making it a visual delight that stands out in the Malad landscape.</p>
               <p>
                 <h3> - Community and Lifestyle - </h3>
 
-                Sky Residency is more than just a building; it's a community where residents can create cherished memories and embrace a high-quality lifestyle:
-              </p>
+                Liberty Garden CHS Ltd embodies a strong sense of community and encourages an active lifestyle. Regular community events, cultural activities, and workshops foster a close-knit community, enabling residents to forge lasting bonds.</p>
               <p>
                 <h3> - Conclusion - </h3>
-                Experience the urban elegance and modern living of Sky Residency. It's not just a residence; it's a lifestyle choice where every detail is designed to provide you with comfort, community, and a vibrant urban experience in the heart of Mankhurd. Embrace the Sky Residency way of life, where every day feels like a celebration of contemporary living in a thriving neighborhood.
-              </p>
+                Liberty Garden Cooperative Housing Society (CHS) Ltd is not just a residence; it's a lifestyle that seamlessly integrates comfort, community, and convenience. Experience the vibrant pulse of Malad while enjoying the privilege of residing in a building designed to elevate your everyday living experience. Liberty Garden CHS Ltd is your gateway to a rewarding residential journey that embraces modernity and community spirit in one of Mumbai's most sought-after neighborhoods.              </p>
             </div>
             <div className="project-overview">
               <div className="row">
@@ -114,8 +110,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Welcome to the serene sanctuary of comfort and relaxation within Sky Residency. Our bedrooms are designed to offer a perfect balance of tranquility, style, and practicality.
-                      </p>
+                      Welcome to the comfort and tranquility of Liberty Garden CHS Ltd's bedrooms. Designed with your well-being in mind, our bedrooms offer a perfect blend of relaxation and style.                      </p>
                       
                     </div>
                   </div>
@@ -128,8 +123,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                       Discover the heart of Sky Residency – our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and special gatherings.
-                      </p>
+                      Discover the heart of Liberty Garden CHS Ltd – our versatile and inviting living spaces. Our halls or living rooms are designed to be the focal point of your daily life and cherished gatherings.                      </p>
                       
                     </div>
                   </div>
@@ -142,8 +136,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Experience culinary excellence in our meticulously designed kitchens. Sky Residency's kitchens are more than just functional; they're designed to inspire your culinary creativity.
-                      </p>
+                      Experience culinary excellence in our meticulously designed kitchens at Liberty Garden CHS Ltd. Our kitchens are more than functional spaces; they inspire culinary creativity and comfort.                      </p>
                       
                     </div>
                   </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Img1 from "../img/project-s-13.jpg";
+import Img1 from "../img/project-16.webp";
 import Img2 from "../img/plan.png";
 import Img3 from "../img/24-hours.png";
 import Img4 from "../img/group.png";
@@ -34,7 +34,7 @@ const ProjectSingle13 = () => {
                   <div className="col-lg-6">
                     <div className="project-details-top-box-text">
                       <h5>Location</h5>
-                      <p>MANKHURD</p>
+                      <p>Vile Parle</p>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -55,22 +55,19 @@ const ProjectSingle13 = () => {
             <div className="project-details-top-text">
               <h2>Best Interior Ideas</h2>
               <p>
-                Sky Residency soars as a modern masterpiece in the heart of Mankhurd, one of Mumbai's emerging and vibrant neighborhoods. This iconic residential haven is thoughtfully designed to offer residents a harmonious blend of contemporary living, convenience, and an elevated quality of life.
-              </p>
+                Yoga Yog Residences is a serene oasis nestled in the heart of Vile Parle, Mumbai's vibrant and culturally rich neighborhood. Designed to harmonize modern living with holistic wellness, this exclusive residential haven invites you to embrace a balanced lifestyle that nurtures the mind, body, and soul.              </p>
               <p>
                 <h3> - Architectural Marvel - </h3>
 
-                Sky Residency is an architectural marvel, seamlessly integrating modern design with a touch of visionary elegance, creating a building that stands as a beacon of style in the Mankhurd skyline:
-              </p>
+                Yoga Yog Residences embodies architectural harmony, seamlessly blending contemporary design with the principles of tranquility.              </p>
               <p>
                 <h3> - Community and Lifestyle - </h3>
-
-                Sky Residency is more than just a building; it's a community where residents can create cherished memories and embrace a high-quality lifestyle:
-              </p>
+                Yoga Yog Residences is not just a building; it's a community of like-minded individuals seeking a harmonious way of life.              
+                Regular wellness workshops, mindfulness sessions, and yoga classes foster a strong sense of community, enabling residents to connect and grow together.
+                </p>
               <p>
                 <h3> - Conclusion - </h3>
-                Experience the urban elegance and modern living of Sky Residency. It's not just a residence; it's a lifestyle choice where every detail is designed to provide you with comfort, community, and a vibrant urban experience in the heart of Mankhurd. Embrace the Sky Residency way of life, where every day feels like a celebration of contemporary living in a thriving neighborhood.
-              </p>
+                Embrace the spirit of well-being and tranquility at Yoga Yog Residences. It's more than just a residence; it's a way of life that nurtures your physical, mental, and spiritual health. Experience the essence of holistic living in the heart of Vile Parle, where every day brings you closer to your wellness goals and a sense of inner harmony.              </p>
             </div>
             <div className="project-overview">
               <div className="row">
@@ -114,8 +111,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Welcome to the serene sanctuary of comfort and relaxation within Sky Residency. Our bedrooms are designed to offer a perfect balance of tranquility, style, and practicality.
-                      </p>
+Welcome to the peaceful haven of Yoga Yog Residences. Our bedrooms are thoughtfully designed to provide a seamless blend of comfort, style, and mindfulness.                      </p>
                       
                     </div>
                   </div>
@@ -128,8 +124,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                       Discover the heart of Sky Residency – our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and special gatherings.
-                      </p>
+Experience the heart of Yoga Yog Residences – our versatile and inviting living spaces. Our halls or living rooms are designed to be the hub of daily life and mindful connections.                      </p>
                       
                     </div>
                   </div>
@@ -142,8 +137,7 @@ const ProjectSingle13 = () => {
                     </div>
                     <div className="project-details-box-meta-text">
                       <p>
-                        Experience culinary excellence in our meticulously designed kitchens. Sky Residency's kitchens are more than just functional; they're designed to inspire your culinary creativity.
-                      </p>
+Experience culinary mindfulness in our meticulously designed kitchens at Yoga Yog Residences. Our kitchens are more than functional; they inspire conscious cooking and well-being.                      </p>
                       
                     </div>
                   </div>
