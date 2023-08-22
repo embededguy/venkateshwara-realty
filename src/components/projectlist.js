@@ -12,6 +12,9 @@ import projectImg8 from "../img/project-sf-11.jpg";
 import projectImg9 from "../img/project-sf-12.webp";
 import projectImg10 from "../img/project-sf-13.jpg";
 
+
+
+
 // import "./style.css";
 
 const ProjectList = () => {
@@ -29,6 +32,200 @@ const ProjectList = () => {
               </div>
             </div>
             <div className="row align-items-center justify-content-between">
+              <div className="col-md-5  col-sm-6">
+                <div className="project-box">
+                  <Link to="/projects-single17">
+                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <h3>
+                      Liberty Garden
+                      <br /> IN Malad
+                    </h3>
+                    <p>ARCHITECTURE</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-5  col-sm-6">
+                <div className="project-box">
+                  <Link to="/projects-single18">
+                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <h3>
+                      Mumbadevi CHS Ltd
+                      <br /> IN Girgaum
+                    </h3>
+                    <p>ARCHITECTURE</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-5  col-sm-6">
+                <div className="project-box">
+                  <Link to="/projects-single19">
+                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <h3>
+                      Samrat CHS Ltd
+                      <br /> IN Malad
+                    </h3>
+                    <p>ARCHITECTURE</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-5  col-sm-6">
+                <div className="project-box">
+                  <Link to="/projects-single14">
+                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <h3>
+                      Vitthal Darshan
+                      <br /> IN Andheri
+                    </h3>
+                    <p>ARCHITECTURE</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-5  col-sm-6">
+                <div className="project-box">
+                  <Link to="/projects-single15">
+                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <h3>
+                    Sudhanshu   
+                      <br /> IN Vile Parle
+                    </h3>
+                    <p>ARCHITECTURE</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-5  col-sm-6">
+                <div className="project-box">
+                  <Link to="/projects-single16">
+                    <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
+                    <h3>
+                      Yoga Yog
+                      <br /> IN Vile Parle
+                    </h3>
+                    <p>INTERIOR</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+
+              {/**/}
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
                   <Link to="/projects-single4">

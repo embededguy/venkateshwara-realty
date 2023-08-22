@@ -12,7 +12,7 @@ useEffect(()=>{
   return (
     <Fragment>
       <Header />
-      <PageTitle pageTitle={"PROJECT DETAILS"} pagesub={"Project Details"} />
+      <PageTitle pageTitle={""} pagesub={"Project Details"} />
       <ProjectSingle13 />
       <Testimonial />
       <Footer />

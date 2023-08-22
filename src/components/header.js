@@ -57,7 +57,8 @@ const Header = () => {
                     <li>
                       <Link style={{textDecoration:"none",fontWeight:"700"}} to="/contact">Contact</Link>
                     </li>
-                    <li>
+                    
+                    <li style={{display:"none"}}>
                       <Link to="/portfolio" style={{textDecoration:"none",fontWeight:"700"}}>
                         Profile
                       </Link>

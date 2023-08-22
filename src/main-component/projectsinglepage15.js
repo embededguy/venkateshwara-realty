@@ -1,7 +1,7 @@
 import React, { Fragment,useEffect } from "react";
 import Header from "../components/header";
 import PageTitle from "../components/pagetitle";
-import ProjectSingle11 from "../components/projectsingle11";
+import ProjectSingle15 from "../components/projectsingle15";
 import Testimonial from "../components/testimonial";
 import Footer from "../components/footer";
 
@@ -12,8 +12,8 @@ useEffect(()=>{
   return (
     <Fragment>
       <Header />
-      <PageTitle pageTitle={"SBI MILAN"} pagesub={"Project Details"} />
-      <ProjectSingle11 />
+      <PageTitle pageTitle={"sudhanshu"} pagesub={"Project Details"} />
+      <ProjectSingle15 />
       <Testimonial />
       <Footer />
     </Fragment>

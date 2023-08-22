@@ -26,6 +26,14 @@ import ProjectSinglePage10 from "./projectsinglepage10";
 import ProjectSinglePage11 from "./projectsinglepage11";
 import ProjectSinglePage12 from "./projectsinglepage12";
 import ProjectSinglePage13 from "./projectsinglepage13";
+import ProjectSinglePage14 from "./projectsinglepage14";
+import ProjectSinglePage15 from "./projectsinglepage15";
+import ProjectSinglePage16 from "./projectsinglepage16";
+import ProjectSinglePage17 from "./projectsinglepage17";
+import ProjectSinglePage18 from "./projectsinglepage18";
+import ProjectSinglePage19 from "./projectsinglepage19";
+
+
 import CurrentProject from "./current-project";
 
 
@@ -51,6 +59,12 @@ const AllRoute = () => {
           <Route path="/projects-single11" component={ProjectSinglePage11} />
           <Route path="/projects-single12" component={ProjectSinglePage12} />
           <Route path="/projects-single13" component={ProjectSinglePage13} />
+          <Route path="/projects-single14" component={ProjectSinglePage14} />
+          <Route path="/projects-single15" component={ProjectSinglePage15} />
+          <Route path="/projects-single16" component={ProjectSinglePage16} />
+          <Route path="/projects-single17" component={ProjectSinglePage17} />
+          <Route path="/projects-single18" component={ProjectSinglePage18} />
+          <Route path="/projects-single19" component={ProjectSinglePage19} />
           <Route path="/palash" component={CurrentProject} />
           <Route path="/service" component={ServicePage} />
           <Route path="/service-single" component={ServiceSinglePage} />
