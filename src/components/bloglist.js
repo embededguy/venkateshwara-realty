@@ -61,15 +61,7 @@ const BlogList = () => {
                   </Link>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="text-center blog-left">
-                    <Link to="/blog" className="cta-btn btn-fill">
-                      Explore More
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
           <Sidebar />

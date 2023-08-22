@@ -110,7 +110,7 @@ const ProjectSingle8 = () => {
                       <p>
                         Step into a realm of luxury and tranquility within Pallavi Residences. Our bedrooms are designed to be your personal haven, a place where comfort and style intertwine seamlessly.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ const ProjectSingle8 = () => {
                       <p>
                         Experience the heart of Pallavi Residences in our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and special gatherings.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ const ProjectSingle8 = () => {
                       <p>
                         Discover culinary excellence in our meticulously planned kitchens. Pallavi's kitchens are designed to be functional, beautiful, and inspire your culinary creations.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

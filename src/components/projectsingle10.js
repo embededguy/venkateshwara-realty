@@ -114,7 +114,7 @@ const ProjectSingle10 = () => {
                       <p>
                         Experience the epitome of comfort and tranquility within Ravikiran Residences. Our bedrooms are thoughtfully designed to provide a harmonious blend of relaxation, style, and functionality.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ const ProjectSingle10 = () => {
                       <p>
                         Discover the heart of Ravikiran Residences – our versatile and welcoming living spaces. Our halls or living rooms are designed to be the focal point of your daily life and special gatherings.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ const ProjectSingle10 = () => {
                       <p>
                         Discover culinary excellence in our meticulously designed kitchens. Ravikiran's kitchens are a harmonious blend of functionality and aesthetics, inspiring your culinary creations.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

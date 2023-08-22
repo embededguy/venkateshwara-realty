@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../img/vr-2.png";
+import Logo from "../img/vr.png";
 import MobileMenu from "./mobilemenu";
 import { Link } from "react-router-dom";
 
@@ -42,17 +42,17 @@ const Header = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link style={{textDecoration:"none",fontWeight:"700"}} to="/" onClick={onClick}>
+                      <Link style={{textDecoration:"none",fontWeight:"700"}} to="/blog" >
                         Blog
                       </Link>
-                      <ul>
+                      {/*<ul>
                         <li>
                           <Link style={{textDecoration:"none",fontWeight:"700"}} to="/blog">Blog</Link>
                         </li>
                         <li>
                           <Link style={{textDecoration:"none",fontWeight:"700"}} to="/blog-single">Blog Details</Link>
                         </li>
-                      </ul>
+                      </ul>*/}
                     </li>
                     <li>
                       <Link style={{textDecoration:"none",fontWeight:"700"}} to="/contact">Contact</Link>
@@ -66,10 +66,10 @@ const Header = () => {
                 </nav>
               </div>
               <div className="header-action">
-                <button className="search-toggle" onClick={() => setShow(true)}>
+{/*                <button className="search-toggle" onClick={() => setShow(true)}>
                   <i className="fa fa-search"></i>
                 </button>
-                <Link to="/contact" className="header-btn">
+*/}                <Link to="/contact" className="header-btn">
                   <div className="icon-holder">
                     <i className="fa fa-envelope"></i>
                   </div>

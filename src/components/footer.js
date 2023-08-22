@@ -21,62 +21,39 @@ const Footer = () => {
                 
                 </p>
                 <ul className="footer-contact">
+                  <li style={{color:"#777"}}>
+                    <i className="fa fa-phone"/> +91 99201 02300 ,+91 91900 00018<br/>+91 98197 87718, +91 93200 00027
+                  </li>
+                  <li style={{color:"#777"}}>
+                    <i className="fa fa-envelope"  /> sales@venkateshwararealty.co.in
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 order-lg-2 order-3">
+              <div className="single-footer" style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+                <h3>Quick Links</h3>
+                <ul style={{margin:"0",padding:"0"}}>
                   <li>
-                    <i className="fa fa-phone" /> +91 99201 02300
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
-                    <i className="fa fa-envelope" /> sales@venkateshwararealty.co.in
+                    <Link to="/projects">Our Projects</Link>
                   </li>
                   <li>
-                    <i className="fa fa-map" />Office No:1, Saikrupa Apt., Azad Rd-2, Behind Vishal Hall, Opp. Kamgar Kalyan Kendra, Andheri (E), Mumbai - 400 069;
+                    <Link to="/portfolio">Portfolio</Link>
+                  </li>
+                  <li>
+                    <Link to="/team">Meet The Team</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-2 col-sm-6 order-lg-2 order-3">
-              <div className="single-footer">
-                <h3>Qucik Links</h3>
-                <ul>
-                  <li>
-                    <Link to="/">About Us</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Our Projects</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Our Services</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Meet The Team</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Contact</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-2 col-sm-6 order-lg-3 order-4">
-              <div className="single-footer">
-                <h3>Exlore</h3>
-                <ul>
-                  <li>
-                    <Link to="/">Case Study</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Latest News</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Help Center</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Privacy Policy</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Terms & Condition</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            
             <div className="col-lg-4 col-sm-6 order-lg-4 order-2">
               <div className="single-footer">
                 <h3>Newsletter</h3>
@@ -90,11 +67,7 @@ const Footer = () => {
                   </form>
                 </div>
                 <ul className="footer-social">
-                  <li>
-                    <Link to="/">
-                      <i className="fa fa-pinterest-p" />
-                    </Link>
-                  </li>
+                 
                   <li>
                     <Link to="/">
                       <i className="fa fa-facebook-f" />
@@ -105,12 +78,11 @@ const Footer = () => {
                       <i className="fa fa-instagram" />
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/">
-                      <i className="fa fa-twitter" />
-                    </Link>
-                  </li>
+                  
                 </ul>
+                <li>
+                  <i className="fa fa-map" style={{color:"#d8a921",paddingRight:"10px"}}/>Office No:1, Saikrupa Apt., Azad Rd-2, Behind Vishal Hall, Opp. Kamgar Kalyan Kendra, Andheri (E), Mumbai - 400 069;
+                </li>
               </div>
             </div>
           </div>

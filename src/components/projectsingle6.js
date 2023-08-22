@@ -112,7 +112,7 @@ const ProjectSingle6 = () => {
                       <p>
                         Discover the ultimate retreat for relaxation and rejuvenation within Karmayog Residences. Our bedrooms are designed to be sanctuaries of comfort, offering a blend of elegance and tranquility.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -126,7 +126,7 @@ const ProjectSingle6 = () => {
                       <p>
                         Experience the heart of Karmayog Residences in our exquisite living spaces. Our halls or living rooms are designed to be versatile, stylish, and inviting, creating the perfect moments.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const ProjectSingle6 = () => {
                       <p>
                         Experience culinary excellence in our meticulously designed kitchens. Karmayog's kitchens are functional, stylish, and equipped to inspire your culinary creations.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

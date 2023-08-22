@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import team1 from "../img/team-1.jpg";
-import team2 from "../img/team-2.jpg";
-import team3 from "../img/team-3.jpg";
+import team1 from "../img/project.png";
+import team2 from "../img/Architect.png";
+import team3 from "../img/ceo.png";
+import team4 from "../img/Director.png";
+
 // import "./style.css";
 
 const Team = () => {
@@ -27,11 +29,15 @@ const Team = () => {
             <div className="row justify-content-center">
               <div className="col-md-4 col-sm-6">
                 <div className="single-team-box">
+                  <div>
+                  </div>
                   <div className="team-image">
-                    <img src={team1} alt="team" />
+                    <div className="team-lgo">
+                      <img src={team2} />
+                    </div>
                     <div className="team-meta">
-                      <h4>Silon Michel</h4>
-                      <p>Managing Director</p>
+                      <h4>Omkar Bhat</h4>
+                      <p>Architect</p>
                     </div>
                   </div>
                 </div>
@@ -39,10 +45,12 @@ const Team = () => {
               <div className="col-md-4 col-sm-6">
                 <div className="single-team-box">
                   <div className="team-image">
-                    <img src={team2} alt="team" />
+                    <div className="team-lgo">
+                      <img src={team3} />
+                    </div>
                     <div className="team-meta">
-                      <h4>Jhonny Jackman</h4>
-                      <p>Art Director</p>
+                      <h4>Naresh Dewan</h4>
+                      <p>C.E.O</p>
                     </div>
                   </div>
                 </div>
@@ -50,10 +58,12 @@ const Team = () => {
               <div className="col-md-4 col-sm-6">
                 <div className="single-team-box">
                   <div className="team-image">
-                    <img src={team3} alt="team" />
+                    <div className="team-lgo">
+                      <img src={team1} />
+                    </div>
                     <div className="team-meta">
-                      <h4>Tyron</h4>
-                      <p>Chief Architect</p>
+                      <h4>Prem Ramnani</h4>
+                      <p>Project Head</p>
                     </div>
                   </div>
                 </div>
@@ -61,10 +71,12 @@ const Team = () => {
               <div className="col-md-4 col-sm-6">
                 <div className="single-team-box">
                   <div className="team-image">
-                    <img src={team1} alt="team" />
+                    <div className="team-lgo">
+                      <img src={team4} />
+                    </div>
                     <div className="team-meta">
-                      <h4>Silon Michel</h4>
-                      <p>Managing Director</p>
+                      <h4>Vignesh Prabhu</h4>
+                      <p>Director</p>
                     </div>
                   </div>
                 </div>
@@ -72,10 +84,12 @@ const Team = () => {
               <div className="col-md-4 col-sm-6">
                 <div className="single-team-box">
                   <div className="team-image">
-                    <img src={team2} alt="team" />
+                    <div className="team-lgo">
+                      <img src={team4} />
+                    </div>
                     <div className="team-meta">
-                      <h4>Jhonny Jackman</h4>
-                      <p>Art Director</p>
+                      <h4>Ramesh Bafna</h4>
+                      <p>Director</p>
                     </div>
                   </div>
                 </div>
@@ -83,10 +97,12 @@ const Team = () => {
               <div className="col-md-4 col-sm-6">
                 <div className="single-team-box">
                   <div className="team-image">
-                    <img src={team3} alt="team" />
+                    <div className="team-lgo">
+                      <img src={team4} />
+                    </div>
                     <div className="team-meta">
-                      <h4>Tyron</h4>
-                      <p>Chief Architect</p>
+                      <h4>Kusum Gowda</h4>
+                      <p>Director</p>
                     </div>
                   </div>
                 </div>
@@ -94,15 +110,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="text-center mt-5">
-              <Link to="/" className="cta-btn btn-fill">
-                Explore More
-              </Link>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

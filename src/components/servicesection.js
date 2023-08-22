@@ -23,17 +23,14 @@ const ServiceSection = () => {
               data-aos-delay="100"
             >
               <div className="service-icon">
-                <img src={serviceIcon1} alt="img" />
+                <img src={serviceIcon1} alt="img" style={{height:"100px"}}/>
               </div>
               <div className="service-text">
                 <h3>Interior Design</h3>
                 <p>
-                  We develop the full cycle of project documentation &amp; full
-                  details. Our clients satisfaction is most
+                 Every detail, from the carefully selected artwork that reflects a balance and inviting warmth.
                 </p>
-                <Link to="/service-single" className="cta-btn btn-border">
-                  Read More
-                </Link>
+                
               </div>
               <img src={serviceImg1} alt="img" />
             </div>
@@ -50,12 +47,9 @@ const ServiceSection = () => {
               <div className="service-text">
                 <h3>Architecture</h3>
                 <p>
-                  We develop the full cycle of project documentation &amp; full
-                  details. Our clients satisfaction is most
+                  Exemplifying modern architectural excellence, this property seamlessly blends form and function. 
                 </p>
-                <Link to="/service-single" className="cta-btn btn-border">
-                  Read More
-                </Link>
+               
               </div>
               <img src={serviceImg2} alt="img" />
             </div>
@@ -72,12 +66,8 @@ const ServiceSection = () => {
               <div className="service-text">
                 <h3>House Planning</h3>
                 <p>
-                  We develop the full cycle of project documentation &amp; full
-                  details. Our clients satisfaction is most
-                </p>
-                <Link to="/service-single" className="cta-btn btn-border">
-                  Read More
-                </Link>
+                This house plan offers a living space that is both aesthetically pleasing and accommodating to everyday life.                </p>
+                
               </div>
               <img src={serviceImg3} alt="img" />
             </div>

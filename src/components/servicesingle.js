@@ -23,7 +23,7 @@ const ServiceSingle = () => {
             <div className="col-lg-4">
               <div className="service-video-box-text">
                 <p>
-                  'PALASH' , As the name suggest, It is the perfect example of positive energy and a feeling of new begining set amidst the city , it provides a serene lifestyle and esae of connectivty. at venkateshwara westin group, we are driven by our commitment to create homes that lasts. we dare to create a lasting legacy of quality homes in mumbai. we are dedicated to our mission of providing homes that are affordable, sustainable and built with love.  
+                  '<span style={{color:"#d8a921"}}>PALASH</span>' , As the name suggest, It is the perfect example of positive energy and a feeling of new begining set amidst the city , it provides a serene lifestyle and esae of connectivty. at venkateshwara westin group, we are driven by our commitment to create homes that lasts. we dare to create a lasting legacy of quality homes in mumbai. we are dedicated to our mission of providing homes that are affordable, sustainable and built with love.  
                   </p>
               </div>
             </div>  

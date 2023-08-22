@@ -111,7 +111,7 @@ const ProjectSingle = () => {
                       <p>
                         Welcome to the elegant and tranquil bedrooms of our prestigious building! Each bedroom is designed to be your personal sanctuary, a place of comfort and relaxation.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const ProjectSingle = () => {
                       <p>
                         Step into the heart of your new home, Our spacious and thoughtfully designed living areas provide space for relaxation and creating cherished memories.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ const ProjectSingle = () => {
                       <p>
                         A culinary haven awaits you in our well-appointed kitchens. Whether you're a gourmet chef or enjoy simple home-cooked meals, our kitchens provide the perfect setting.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

@@ -111,7 +111,7 @@ const ProjectSingle9 = () => {
                       <p>
                        Welcome to the epitome of comfort and serenity within Ratnadeep Residences. Our bedrooms are thoughtfully designed to provide the perfect blend of relaxation, style, and functionality.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const ProjectSingle9 = () => {
                       <p>
                         Experience the heart of Ratnadeep Residences – our versatile and welcoming living spaces. Our halls or living rooms are designed to be the focal point of your daily life and special gatherings.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ const ProjectSingle9 = () => {
                       <p>
                         Discover culinary excellence in our meticulously designed kitchens. Ratnadeep's kitchens are a harmonious blend of functionality and aesthetics, inspiring your culinary creations.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

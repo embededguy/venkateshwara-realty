@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <Fragment>
       <Header />
-      <PageTitle pageTitle={"BLOG"} pagesub={"Blog Byasi"} />
+      <PageTitle pageTitle={"BLOG"} pagesub={"Blog Venkateshwara Realty"} />
       <BlogList />
       <Footer />
     </Fragment>

@@ -13,7 +13,7 @@ const BlogSection = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="site-heading">
-              <h3 className="sub-title">LATEST NEWS</h3>
+              <h3 className="sub-title">LATEST BLOGS</h3>
               <h2 className="section-title">Thoughts on Things</h2>
             </div>
           </div>

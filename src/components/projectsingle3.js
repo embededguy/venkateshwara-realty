@@ -127,7 +127,7 @@ const ProjectSingle3 = () => {
                       <p>
                         Welcome to your private oasis of comfort and style within our remarkable building. Our bedrooms are designed to be more than just a place to sleep – they are a haven for relaxation and rejuvenation.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ const ProjectSingle3 = () => {
                       <p>
                         Experience the pinnacle of modern living in our exquisite living spaces. Our halls or living rooms are designed to be the center of your home, where you can relax, entertain, and make cherished memories.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -155,7 +155,7 @@ const ProjectSingle3 = () => {
                       <p>
                         Discover the art of culinary excellence in our meticulously designed kitchens. Whether you're a seasoned chef or a novice cook, our kitchens are designed to inspire you and your family.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

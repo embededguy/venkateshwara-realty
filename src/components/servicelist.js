@@ -32,13 +32,13 @@ const ServiceList = () => {
               data-aos-delay="100"
             >
               <div className="service-icon">
-                <img src={serviceIcon1} alt="img" />
+                <img src={serviceIcon1} alt="img" style={{height:"128px",width:"128px"}}/>
               </div>
               <div className="service-text">
-                <h3>Premium 1 & 2 BHK Homes</h3>
+                <h3>Premium 1 & 2 BHK</h3>
                 <p>
 Discover Comfort and Elegance with Our 1 & 2 BHK Homes! 🏠✨
-Introducing thoughtfully designed 1 & 2 BHK residences that redefine modern living.
+which are thoughtfully designed for You and your family.
                 </p>
       
               </div>
@@ -77,7 +77,7 @@ Experience a lifestyle of convenience and luxury with our modern amenities.
               <div className="service-text">
                 <h3>Easy Connectivity</h3>
                 <p>
-Seamless Connectivity, Boundless Opportunities! 🚇🛣️
+Seamless Connectivity, Boundless Opportunities! with our Road Connectivity 🚇🛣️
 At Venkateshwara Realty.
                 </p>
                 
@@ -116,7 +116,7 @@ Your well-being is our priority. Our residences are thoughtfully designed.</p>
               <div className="service-text">
                 <h3>Green Spaces</h3>
                 <p>
-Where Green Spaces Nurture Your Soul – Welcome to Venkateshwara Realty! 🌳🌼Escape the urban hustle and step into a world of tranquility                 </p>
+                Where Green Spaces Nurture Your Soul – Welcome to Venkateshwara Realty! 🌳🌼Escape the urban hustle and step into the world of peace and tranquility                 </p>
                 
               </div>
               <img src={serviceImg6} alt="img" />

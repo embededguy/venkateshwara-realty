@@ -111,7 +111,7 @@ const ProjectSingle7 = () => {
                       <p>
                         Step into a realm of exquisite comfort and serenity within Krishnatara Residences. Our bedrooms are designed to be sanctuaries of rest, for a rejuvenating experience.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const ProjectSingle7 = () => {
                       <p>
                         Discover the heart of Krishnatara Residences – our elegant living spaces designed for versatility, comfort, and making cherished memories.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ const ProjectSingle7 = () => {
                       <p>
                         Experience culinary excellence in our meticulously designed kitchens. Krishnatara's kitchens are more than just functional; they're an expression of culinary artistry.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

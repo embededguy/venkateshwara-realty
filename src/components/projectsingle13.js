@@ -116,7 +116,7 @@ const ProjectSingle13 = () => {
                       <p>
                         Welcome to the serene sanctuary of comfort and relaxation within Sky Residency. Our bedrooms are designed to offer a perfect balance of tranquility, style, and practicality.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const ProjectSingle13 = () => {
                       <p>
                        Discover the heart of Sky Residency – our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and special gatherings.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -144,7 +144,7 @@ const ProjectSingle13 = () => {
                       <p>
                         Experience culinary excellence in our meticulously designed kitchens. Sky Residency's kitchens are more than just functional; they're designed to inspire your culinary creativity.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

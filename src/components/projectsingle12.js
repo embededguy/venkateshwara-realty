@@ -117,7 +117,7 @@ const ProjectSingle12 = () => {
                       <p>
                         Step into a world of comfort and relaxation within Shraddha Residences. Our bedrooms are meticulously designed to provide the perfect blend of serenity, style, and practicality.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const ProjectSingle12 = () => {
                       <p>
                         Experience the heart of Shraddha Residences – our versatile and inviting living spaces. Our halls or living rooms are designed to be the center of your daily life and special gatherings
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ const ProjectSingle12 = () => {
                       <p>
                         Discover culinary excellence in our meticulously designed kitchens. Shraddha's kitchens are a perfect blend of functionality and aesthetics, inspiring your culinary creativity.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

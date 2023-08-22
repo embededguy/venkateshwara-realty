@@ -109,7 +109,7 @@ const ProjectSingle2 = () => {
                       <p>
                         Introducing the epitome of comfort and serenity in our luxurious residences. Our bedrooms are meticulously designed to be your personal haven, where relaxation and style intertwine seamlessly.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ const ProjectSingle2 = () => {
                       <p>
                         Step into a world of luxury and versatility in our captivating living spaces. Our halls or living rooms are designed to be the heart of your home, a place to connect, entertain, and create lasting memories.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ const ProjectSingle2 = () => {
                       <p>
                         Discover the heart of culinary excellence in our designer kitchens. Thoughtfully planned and equipped, our kitchens make cooking a delightful experience and enlighten the chef in you.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

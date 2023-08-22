@@ -115,7 +115,7 @@ const ProjectSingle11 = () => {
                       <p>
                         Step into the luxurious embrace of comfort and tranquility within SBIMilan Residences. Our bedrooms are meticulously designed to provide the perfect blend of relaxation, style, and practicality.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ const ProjectSingle11 = () => {
                       <p>
                         Discover the heart of SBIMilan Residences – our versatile and inviting living spaces. Our halls or living rooms are designed to be the hub of daily life and special gatherings.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ const ProjectSingle11 = () => {
                       <p>
                         Experience culinary excellence in our meticulously designed kitchens. SBIMilan's kitchens are more than just functional; they're designed to inspire your culinary creativity.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

@@ -2,7 +2,7 @@ import React from "react";
 import CountUp from "react-countup";
 
 import bg from "../img/about-bg.png";
-import img2 from "../img/abt-2.jpeg";
+import img2 from "../img/Palash.png";
 import img1 from "../img/about-0.png";
 import signature from "../img/signature.png";
 import { Link } from "react-router-dom";
@@ -34,7 +34,7 @@ const About = () => {
                 </div>
                 <div className="signature-right">
                   <h3>Manjunath Gowda</h3>
-                  <p>Partner</p>
+                  <p>Group Director</p>
                 </div>
               </div>
               <div className="text-center mt-5 d-lg-block d-none">
@@ -44,13 +44,14 @@ const About = () => {
             </div>
             </div>
           </div>
-          <div className="col-lg-6 offset-lg-1 col-md-6">
+          <div className="col-lg-6 offset-lg-1 col-md-6" style={{marginTop:"50px"}}>
             <div className="about-counter">
               <div className="counter-box">
                 <h2>
                   <span className="counter">
-                    <CountUp start={0} end={105} duration={5} />
+                    <CountUp start={0} end={15} duration={5} />
                   </span>
+                  +
                 </h2>
                 <p>
                   Years of <br/>
@@ -60,7 +61,7 @@ const About = () => {
               <div className="counter-box">
                 <h2>
                   <span className="counter">
-                    <CountUp start={0} end={436} duration={8} />
+                    <CountUp start={0} end={20} duration={8} />
                   </span>
                   +
                 </h2>
@@ -72,7 +73,7 @@ const About = () => {
               <div className="counter-box">
                 <h2>
                   <span className="counter">
-                    <CountUp start={0} end={180} duration={5} />
+                    <CountUp start={0} end={18} duration={5} />
                   </span>
                   +
                 </h2>

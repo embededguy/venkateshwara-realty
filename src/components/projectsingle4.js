@@ -110,7 +110,7 @@ const ProjectSingle4 = () => {
                       <p>
                         Discover the epitome of comfort and relaxation in our thoughtfully designed bedrooms. Each bedroom in our exceptional building is more than just a space to rest; it's a sanctuary of serenity and style.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ const ProjectSingle4 = () => {
                       <p>
                        Experience the pinnacle of modern living in our exquisite living spaces. Our halls or living rooms are designed to be the heart of your home, where you can relax, entertain, and make cherished memories.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ const ProjectSingle4 = () => {
                       <p>
                         Discover culinary excellence in our meticulously planned kitchens. Whether you're a passionate cook or a casual chef, our kitchens are designed to be your culinary haven.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

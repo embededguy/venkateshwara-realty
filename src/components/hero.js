@@ -73,7 +73,6 @@ class Hero extends Component {
                 <source src={backGroundVideo} type="video/mp4"/>
               </video>
             </div>
-
           </Slider>
         </div>
       </section>

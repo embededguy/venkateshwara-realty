@@ -110,7 +110,7 @@ const ProjectSingle5 = () => {
                       <p>
                         Welcome to the epitome of comfort and relaxation within Jaonitavilla Residences. Our bedrooms are designed to be your personal sanctuary, a retreat from the bustling world outside.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ const ProjectSingle5 = () => {
                     <div className="project-details-box-meta-text">
                       <p>
                         Experience the heart of Jaonitavilla Residences – the exquisite living spaces that bring families and friends together. Our halls or living rooms are designed to be versatile, elegant, and welcoming.                      </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ const ProjectSingle5 = () => {
                       <p>
                         Discover the joy of cooking and culinary creativity in our meticulously designed kitchens. Jaonitavilla's kitchens are thoughtfully planned to be functional, efficient, and appealing.
                       </p>
-                      <Link to="/">Learn More</Link>
+                      
                     </div>
                   </div>
                 </div>

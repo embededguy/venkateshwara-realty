@@ -8,10 +8,6 @@ import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 import chat from "../img/chat.png"
 
-
-
-
-
 const theme = {
     background: '#FFFFFF',
     headerBgColor: '#D8A921',
