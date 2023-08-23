@@ -52,22 +52,44 @@ class Review extends React.Component {
         this.props.setCookie('incgrp', this.state.incgrp, { path: '/' });    
         this.props.setCookie('agegrp', this.state.agegrp, { path: '/' });    
         this.props.setCookie('type', this.state.type, { path: '/' });            
+    
+        var request = new XMLHttpRequest();
+        request.onreadystatechange=function() {
+          if (request.readyState == 4 && request.status == 200) {
+            console.log("Response Received");
+          }
+        }
+        console.log(this.state)
+        request.open("POST","http://localhost:8000/chat-data.php",true);
+        request.setRequestHeader("Content-type","application/json");
+        request.setRequestHeader("Access-Control-Allow-Origin","*");
+        request.send(JSON.stringify(this.state));
+
     }else{
-        console.log(this.props.cookies)
-        this.setState({email:this.props.cookies.email.message})
+        let data = {
+            ispresent: true,
+            name:      this.props.cookies.name.message,
+            email:     this.props.cookies.email.message,
+            mobile:    this.props.cookies.mobile.message,
+            incgrp:    this.props.cookies.incgrp.value,
+            agegrp:    this.props.cookies.agegrp.value,
+            type:      this.props.cookies.type.value,
+            usermsg:   this.state.usermsg.message
+        }
 
-    }
-    var request = new XMLHttpRequest();
-    request.onreadystatechange=function() {
-      if (request.readyState == 4 && request.status == 200) {
-        console.log("Response Received");
-      }
+        var request = new XMLHttpRequest();
+        request.onreadystatechange=function() {
+          if (request.readyState == 4 && request.status == 200) {
+            console.log("Response Received");
+          }
+        }
+        console.log(data)
+        request.open("POST","http://localhost:8000/chat-data.php",true);
+        request.setRequestHeader("Content-type","application/json");
+        request.setRequestHeader("Access-Control-Allow-Origin","*");
+        request.send(JSON.stringify(data));
     }
 
-    request.open("POST","http://localhost:8000/chat-data.php",true);
-    request.setRequestHeader("Content-type","application/json");
-    request.setRequestHeader("Access-Control-Allow-Origin","*");
-    request.send(JSON.stringify(this.state));
   }
 
   
