@@ -46,25 +46,25 @@ const AllRoute = () => {
           <Route path="/home" component={Homepage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/projects" component={ProjectPage} />
-          <Route path="/projects-single" component={ProjectSinglePage} />
-          <Route path="/projects-single2" component={ProjectSinglePage2} />
-          <Route path="/projects-single3" component={ProjectSinglePage3} />
-          <Route path="/projects-single4" component={ProjectSinglePage4} />
-          <Route path="/projects-single5" component={ProjectSinglePage5} />
-          <Route path="/projects-single6" component={ProjectSinglePage6} />
-          <Route path="/projects-single7" component={ProjectSinglePage7} />
-          <Route path="/projects-single8" component={ProjectSinglePage8} />
-          <Route path="/projects-single9" component={ProjectSinglePage9} />
-          <Route path="/projects-single10" component={ProjectSinglePage10} />
-          <Route path="/projects-single11" component={ProjectSinglePage11} />
-          <Route path="/projects-single12" component={ProjectSinglePage12} />
-          <Route path="/projects-single13" component={ProjectSinglePage13} />
-          <Route path="/projects-single14" component={ProjectSinglePage14} />
-          <Route path="/projects-single15" component={ProjectSinglePage15} />
-          <Route path="/projects-single16" component={ProjectSinglePage16} />
-          <Route path="/projects-single17" component={ProjectSinglePage17} />
-          <Route path="/projects-single18" component={ProjectSinglePage18} />
-          <Route path="/projects-single19" component={ProjectSinglePage19} />
+          <Route path="/ajanta" component={ProjectSinglePage} />
+          <Route path="/ekopa" component={ProjectSinglePage2} />
+          <Route path="/bluestar" component={ProjectSinglePage3} />
+          <Route path="/eversmile" component={ProjectSinglePage4} />
+          <Route path="/jaonitavilla" component={ProjectSinglePage5} />
+          <Route path="/karmayog" component={ProjectSinglePage6} />
+          <Route path="/krishnatara" component={ProjectSinglePage7} />
+          <Route path="/sbi-pallavi" component={ProjectSinglePage8} />
+          <Route path="/ratnadeep" component={ProjectSinglePage9} />
+          <Route path="/ravikiran" component={ProjectSinglePage10} />
+          <Route path="/sbi-milan" component={ProjectSinglePage11} />
+          <Route path="/shraddha" component={ProjectSinglePage12} />
+          <Route path="/sky-residency" component={ProjectSinglePage13} />
+          <Route path="/vitthal-darshan" component={ProjectSinglePage14} />
+          <Route path="/sudhanshu" component={ProjectSinglePage15} />
+          <Route path="/yoga-yog" component={ProjectSinglePage16} />
+          <Route path="/liberty-garden" component={ProjectSinglePage17} />
+          <Route path="/mumbadevi-chs" component={ProjectSinglePage18} />
+          <Route path="/samrat-chs" component={ProjectSinglePage19} />
           <Route path="/palash" component={CurrentProject} />
           <Route path="/service" component={ServicePage} />
           <Route path="/service-single" component={ServiceSinglePage} />

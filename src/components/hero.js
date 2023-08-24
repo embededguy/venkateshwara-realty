@@ -39,7 +39,7 @@ class Hero extends Component {
             <li>
               <Link to="/" onClick={()=>{
                 let a = document.createElement('a')
-                a.href="https://www.facebook.com/realtyvenkateshwara"
+                a.href="https://www.facebook.com/venkateshwara.realty.group"
                 a.click()
               }}>
                 <i className="fa fa-facebook-f" />
@@ -48,7 +48,7 @@ class Hero extends Component {
             <li>
               <Link to="/"  onClick={()=>{
                 let a = document.createElement('a')
-                a.href="https://www.instagram.com/venkateshwara_reality/"
+                a.href="https://www.instagram.com/venkateshwara.realty.group/"
                 a.click()
               }}>
                 <i className="fa fa-instagram" />

@@ -59,7 +59,7 @@ class Review extends React.Component {
             console.log("Response Received");
           }
         }
-        console.log(this.state)
+
         request.open("POST","http://localhost:8000/chat-data.php",true);
         request.setRequestHeader("Content-type","application/json");
         request.setRequestHeader("Access-Control-Allow-Origin","*");
@@ -83,7 +83,7 @@ class Review extends React.Component {
             console.log("Response Received");
           }
         }
-        console.log(data)
+
         request.open("POST","http://localhost:8000/chat-data.php",true);
         request.setRequestHeader("Content-type","application/json");
         request.setRequestHeader("Access-Control-Allow-Origin","*");
@@ -98,7 +98,7 @@ class Review extends React.Component {
     
     return (
       <div style={{ width: '100%' }}>
-        <p style={{fontSize:"14px",color:"white",textAlign:"center",lineHeight:"20px"}} >Thank You for your data!</p>
+        <p style={{fontSize:"14px",color:"white",textAlign:"center",lineHeight:"20px"}} >Thank You, we will get back to you soon!</p>
       </div>
     );
   }
@@ -109,7 +109,7 @@ function Project(){
         <div style={{ width: '100%' }}>
             <p style={{fontSize:"14px",color:"white",textAlign:"center",lineHeight:"20px"}}><span style={{fontWeight:"700"}}>PALASH</span> <br/> Redevlopment of Samrat CHS Ltd</p>
             <p style={{fontSize:"14px",color:"white",textAlign:"center",lineHeight:"20px"}}>Spacious 1 BHK, 2 BHK & Jodi Apartments Located at Malad (W), Marve Road Jankalyan Nagar, Mumbai 400095</p>        
-            <a href="./projects" style={{textDecoration:"none"}}><div style={{marginLeft:"20px",width:"100px",padding:"10px",textAlign:"center",background:"#fff",display:"flex",justifyContent:"center",borderRadius:"10px"}}>View All</div></a>        
+            <a href="./projects" style={{color:"black",textDecoration:"none"}}><div style={{marginLeft:"20px",width:"100px",padding:"10px",textAlign:"center",background:"#fff",display:"flex",justifyContent:"center",borderRadius:"10px"}}>View All</div></a>        
         </div>
     );
 }
@@ -119,7 +119,7 @@ function About(){
         <div style={{ width: '100%',justifyContent:"center",display:"flex",flexDirection:"column"}}>
             <p style={{fontSize:"14px",color:"white",textAlign:"center",lineHeight:"20px"}}><span style={{fontWeight:"700"}}>About Us</span> <br/></p>
             <p style={{fontSize:"14px",color:"white",textAlign:"center",lineHeight:"20px"}}>Venkateshwara Realty is a leading real estate developer acclaimed for its exceptional residential, commercial, and mixed-use projects. Committed to quality, innovation, and customer satisfaction, it's a trusted name in the industry.</p>
-            <a href="./about" style={{textDecoration:"none"}}><div style={{marginLeft:"20px",width:"100px",padding:"10px",textAlign:"center",background:"#fff",display:"flex",justifyContent:"center",borderRadius:"10px"}}>More Info</div></a>        
+            <a href="./about" style={{color:"black",textDecoration:"none"}}><div style={{marginLeft:"20px",width:"100px",padding:"10px",textAlign:"center",background:"#fff",display:"flex",justifyContent:"center",borderRadius:"10px"}}>More Info</div></a>        
         </div>
     );
 }
@@ -128,7 +128,7 @@ function Contact(){
         <div style={{ width: '100%' }}>
             <p style={{fontSize:"14px",color:"white",textAlign:"center",lineHeight:"20px"}}><span style={{fontWeight:"700"}}>Contact Us</span> <br/></p>
             <p style={{fontSize:"14px",color:"white",textAlign:"center",lineHeight:"20px",overflow:"hidden",textOverflow:"ellipsis"}}>Email: <br/> sales@venkateshwararealty.co.in<br/>Contact:<br/> +91 99201 02300 ,+91 91900 00018</p>        
-            <a href="./contact" style={{textDecoration:"none"}}><div style={{marginLeft:"20px",width:"100px",padding:"10px",textAlign:"center",background:"#fff",display:"flex",justifyContent:"center",borderRadius:"10px"}}>More Info</div></a>        
+            <a href="./contact" style={{color:"black",textDecoration:"none"}}><div style={{marginLeft:"20px",width:"100px",padding:"10px",textAlign:"center",background:"#fff",display:"flex",justifyContent:"center",borderRadius:"10px"}}>More Info</div></a>        
 
         </div>
     );
@@ -178,6 +178,14 @@ const App = () => {
         {
             id: 'mobile',
             user: true,
+            validator: (value) => {
+                if (isNaN(value)) {
+                    return 'Value should be a number!';
+                }else if(value.length >10 || value.length < 10){
+                    return 'Value should be 10 digit number only!'
+                }
+                return true;
+            },
             trigger: 5,
         },
         {
@@ -268,7 +276,7 @@ const App = () => {
         // 
         {
             id:'else',
-            message: 'Please Let us know what you were looking for',
+            message: 'Please Let us know what you were looking for?',
             trigger: 'usermsg',
         },
          {
@@ -314,6 +322,14 @@ const App = () => {
             }, 
             {
                 id: 'mobile',
+                validator: (value) => {
+                    if (isNaN(value)) {
+                        return 'Value should be a number!';
+                    }else if(value.length >10 || value.length < 10){
+                        return 'Value should be 10 digit number only!'
+                    }
+                    return true;
+                },
                 user: true,
                 trigger: 5,
             },
@@ -325,6 +341,15 @@ const App = () => {
             {
                 id: 'email',
                 user: true,
+                validator: (value) => {
+                    if(value.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|gov|mil|biz|info|mobi|name|aero|jobs|museum)\b/)){
+                        return true;
+                    }
+                    else{
+                        return 'Please provide valid email!';
+                    }
+                    
+                },
                 trigger: 7,
             },
             {
@@ -349,7 +374,7 @@ const App = () => {
             {
                 id: 'agegrp',
                 options: [
-                    { value: 0, label: '21 to 30', trigger:'11'},
+                    { value: 0, label: '21 to 30', trigger:'11' },
                     { value: 1, label: '31 to 40', trigger:'11' },
                     { value: 2, label: '41 to 50', trigger:'11' },            
                     { value: 3, label: '50+', trigger:'11' },            
@@ -405,7 +430,7 @@ const App = () => {
             // 
             {
                 id:'else',
-                message: 'Please Let us know what you were looking for',
+                message: 'Please Let us know what you were looking for?',
                 trigger: 'usermsg',
             },
              {

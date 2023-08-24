@@ -18,7 +18,7 @@ const ProjectSection = () => {
               <h2 className="section-title">Featured Work.</h2>
             </div>
             <div className="project-box" data-aos="fade-up">
-              <Link to="/projects-single">
+              <Link to="/ajanta">
                 <img src={projectImg1} alt="img" />
                 <h3 style={{marginLeft:"150px"}}>
                   Ajanta
@@ -55,7 +55,7 @@ const ProjectSection = () => {
           </div>
           <div className="col-sm-6">
             <div className="project-box" data-aos="fade-up">
-              <Link to="/projects-single2">
+              <Link to="/ekopa">
                 <img src={projectImg3} alt="img" />
                 <h3  style={{marginLeft:"150px"}}>
                   Ekopa
@@ -85,7 +85,7 @@ const ProjectSection = () => {
               </Link>
             </div>
             <div className="project-box" data-aos="fade-up">
-              <Link to="/projects-single3">
+              <Link to="/bluestar">
                 <img src={projectImg2} alt="img" />
                 <h3 style={{marginLeft:"150px"}}>
                   BlueStar

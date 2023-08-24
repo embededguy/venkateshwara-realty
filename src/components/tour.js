@@ -30,7 +30,7 @@ const Tour = () => {
                       <div className="waves wave-3" />
                     </div>
                   </div>
-                  <VideoModal videoId="BbBttEPJ4_U" />
+                  <VideoModal videoId="WLESZJnYgUM" />
                 </div>
               </div>
             </div>

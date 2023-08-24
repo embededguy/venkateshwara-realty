@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="single-footer">
                 <h3>About</h3>
                 <p>
-                Venkateshwara Realty has successfully collaberated with Westin Developers, a pioneer in real estate industry with over 28 successfully completed projects under its belt. 
+                Venkateshwara Realty has successfully collaberated with Westin Developers, a pioneer in real estate industry with over 18+ successfully completed projects under its belt. 
                 
                 </p>
                 <ul className="footer-contact">
@@ -69,12 +69,20 @@ const Footer = () => {
                 <ul className="footer-social">
                  
                   <li>
-                    <Link to="/">
+                    <Link to="/" onClick={()=>{
+                      let a = document.createElement('a')
+                      a.href="https://www.facebook.com/venkateshwara.realty.group"
+                      a.click()
+                    }}>
                       <i className="fa fa-facebook-f" />
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/" onClick={()=>{
+                      let a = document.createElement('a')
+                      a.href="https://www.instagram.com/venkateshwara.realty.group/"
+                      a.click()
+                    }}>
                       <i className="fa fa-instagram" />
                     </Link>
                   </li>

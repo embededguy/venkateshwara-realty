@@ -49,7 +49,7 @@ const About = () => {
               <div className="counter-box">
                 <h2>
                   <span className="counter">
-                    <CountUp start={0} end={15} duration={5} />
+                    <CountUp start={0} end={20} duration={5} />
                   </span>
                   +
                 </h2>

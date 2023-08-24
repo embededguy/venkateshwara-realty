@@ -35,8 +35,107 @@ const ProjectList = () => {
             </div>
             <div className="row align-items-center justify-content-between">
               <div className="col-md-5  col-sm-6">
+                <div className="project-box" data-aos="fade-up">
+                  <Link to="/ajanta">
+                    <img src={projectImg1} alt="img" />
+                    <h3 style={{marginLeft:"150px"}}>
+                      Ajanta
+                      <br /> IN Andheri
+                    </h3>
+                    <p>INTERIOR</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-5  col-sm-6">
+                <div className="project-box" data-aos="fade-up">
+                  <Link to="/ekopa">
+                    <img src={projectImg3} alt="img" />
+                    <h3  style={{marginLeft:"150px"}}>
+                      Ekopa
+                      <br /> Andheri
+                    </h3>
+                    <p>INTERIOR</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+
+              <div className="col-md-5  col-sm-6">
+                <div className="project-box" data-aos="fade-up">
+                  <Link to="/bluestar">
+                    <img src={projectImg2} alt="img" />
+                    <h3 style={{marginLeft:"150px"}}>
+                      BlueStar
+                      <br /> IN Andheri
+                    </h3>
+                    <p>ARCHITECTURE</p>
+                    <div className="project-zoom">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-eye"
+                      >
+                        <path
+                          stroke="#ffffff"
+                          d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                        />
+                        <circle stroke="#ffffff" cx={12} cy={12} r={3} />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+
+
+              <div className="col-md-5  col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single17">
+                  <Link to="/liberty-garden">
                     <img src={projectImg15} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Liberty Garden
@@ -68,7 +167,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single18">
+                  <Link to="/mumbadevi-chs">
                     <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Mumbadevi CHS Ltd
@@ -100,7 +199,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single19">
+                  <Link to="/samrat-chs">
                     <img src={projectImg14} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Samrat CHS Ltd
@@ -132,7 +231,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single14">
+                  <Link to="/vitthal-darshan">
                     <img src={projectImg11} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Vitthal Darshan
@@ -164,7 +263,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single15">
+                  <Link to="/sudhanshu">
                     <img src={projectImg12} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                     Sudhanshu   
@@ -196,7 +295,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single16">
+                  <Link to="/yoga-yog">
                     <img src={projectImg13} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       Yoga Yog
@@ -230,7 +329,7 @@ const ProjectList = () => {
               {/**/}
               <div className="col-md-5  col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single4">
+                  <Link to="/eversmile">
                     <img src={projectImg1} style={{objectFit:"cover"}} alt="img" />
                     <h3>
                       EverSmile
@@ -262,7 +361,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single5">
+                  <Link to="/jaonitavilla">
                     <img src={projectImg2} alt="img" />
                     <h3>
                       Jaonitavilla
@@ -294,7 +393,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single6">
+                  <Link to="/karmayog">
                     <img src={projectImg3} alt="img" />
                     <h3>
                       Karmayog
@@ -326,7 +425,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single7">
+                  <Link to="/krishnatara">
                     <img src={projectImg4} alt="img" />
                     <h3>
                       Krishnatara
@@ -358,10 +457,10 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single8">
+                  <Link to="/sbi-pallavi">
                     <img src={projectImg5} alt="img" />
                     <h3>
-                      Pallavi
+                      SBI Pallavi
                       <br /> IN malad
                     </h3>
                     <p>INTERIOR</p>
@@ -390,7 +489,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single9">
+                  <Link to="/ratnadeep">
                     <img src={projectImg6} alt="img" />
                     <h3>
                       Ratnadeep
@@ -422,7 +521,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single10">
+                  <Link to="/ravikiran">
                     <img src={projectImg7} alt="img" />
                     <h3>
                       Ravikiran
@@ -454,10 +553,10 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single11">
+                  <Link to="/sbi-milan">
                     <img src={projectImg8} alt="img" />
                     <h3>
-                      SbiMilan
+                      SBI Milan
                       <br /> IN MAHIM
                     </h3>
                     <p>ARCHITECTURE</p>
@@ -486,7 +585,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single12">
+                  <Link to="/shraddha">
                     <img src={projectImg9} alt="img" />
                     <h3>
                       Shraddha
@@ -518,7 +617,7 @@ const ProjectList = () => {
               </div>
               <div className="col-md-5 col-sm-6">
                 <div className="project-box">
-                  <Link to="/projects-single13">
+                  <Link to="/sky-residency">
                     <img src={projectImg10} alt="img" />
                     <h3>
                       Sky Residency
