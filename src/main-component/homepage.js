@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment,useEffect } from "react";
 import Header from "../components/header";
 import Hero from "../components/hero";
 import About from "../components/about";
@@ -11,6 +11,9 @@ import BlogSection from "../components/blogsection";
 import Footer from "../components/footer";
 
 const HomePage = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  })
   return (
     <Fragment>
       <Header />
