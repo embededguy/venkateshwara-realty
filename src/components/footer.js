@@ -60,8 +60,19 @@ const Footer = () => {
                 <p>Sign up now for weekly news & updates.</p>
                 <div className="newsletter_form">
                   <form onSubmit={NewsletterHandler}>
-                    <input type="email" placeholder="Email Address" />
-                    <button type="submit">
+                    <input type="email" id="email-x" placeholder="Email Address" />
+                    <button type="submit" onClick={function(){
+                      var request = new XMLHttpRequest();
+                      var email = document.getElementById("email-x").value.trim();
+                      request.onreadystatechange=function() {
+                        if (request.readyState == 4 && request.status == 200) {
+                            document.getElementById("email-x").value=""
+                        }
+                      }
+                      request.open("POST","newsletter.php",true);
+                      request.setRequestHeader("Content-type","application/json");
+                      request.send(JSON.stringify({email:email}));
+                    }}>
                       <i className="fa fa-envelope" />
                     </button>
                   </form>
@@ -86,7 +97,15 @@ const Footer = () => {
                       <i className="fa fa-instagram" />
                     </Link>
                   </li>
-                  
+                  <li>
+                    <Link to="/"  onClick={()=>{
+                      let a = document.createElement('a')
+                      a.href="https://youtube.com/channel/UCZdO2sI5fX67T-KGKnrPalA"
+                      a.click()
+                    }}>
+                      <i className="fa fa-youtube" />
+                    </Link>
+                  </li>
                 </ul>
                 <li>
                   <i className="fa fa-map" style={{color:"#d8a921",paddingRight:"10px"}}/>Office No:1, Saikrupa Apt., Azad Rd-2, Behind Vishal Hall, Opp. Kamgar Kalyan Kendra, Andheri (E), Mumbai - 400 069;

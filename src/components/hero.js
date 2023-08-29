@@ -54,6 +54,15 @@ class Hero extends Component {
                 <i className="fa fa-instagram" />
               </Link>
             </li>
+            <li>
+              <Link to="/"  onClick={()=>{
+                let a = document.createElement('a')
+                a.href="https://youtube.com/channel/UCZdO2sI5fX67T-KGKnrPalA"
+                a.click()
+              }}>
+                <i className="fa fa-youtube" />
+              </Link>
+            </li>
           </ul>
           <p>Follow Us</p>
         </div>

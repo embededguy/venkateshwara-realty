@@ -13,23 +13,32 @@ const PageTitle = (props) => {
       <div className="hero-social">
         <ul>
           <li>
-            <Link to="/"  onClick={()=>{
+              <Link to="/" onClick={()=>{
                 let a = document.createElement('a')
-                a.href="https://www.facebook.com/realtyvenkateshwara"
+                a.href="https://www.facebook.com/venkateshwara.realty.group"
                 a.click()
               }}>
-              <i className="fa fa-facebook-f" />
-            </Link>
-          </li>
-          <li>
-            <Link to="/"  onClick={()=>{
+                <i className="fa fa-facebook-f" />
+              </Link>
+            </li>
+            <li>
+              <Link to="/"  onClick={()=>{
                 let a = document.createElement('a')
-                a.href="https://www.instagram.com/venkateshwara_reality/"
+                a.href="https://www.instagram.com/venkateshwara.realty.group/"
                 a.click()
               }}>
-              <i className="fa fa-instagram" />
-            </Link>
-          </li>
+                <i className="fa fa-instagram" />
+              </Link>
+            </li>
+            <li>
+              <Link to="/"  onClick={()=>{
+                let a = document.createElement('a')
+                a.href="https://youtube.com/channel/UCZdO2sI5fX67T-KGKnrPalA"
+                a.click()
+              }}>
+                <i className="fa fa-youtube" />
+              </Link>
+            </li>
         </ul>
         <p>Follow Us</p>
       </div>
